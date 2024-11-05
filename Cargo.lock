@@ -1939,6 +1939,7 @@ dependencies = [
  "serde_with",
  "smol_str",
  "starknet",
+ "starknet-crypto 0.7.2",
  "tempfile",
  "toml",
  "tracing",
