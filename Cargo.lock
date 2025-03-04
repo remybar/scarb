@@ -2000,8 +2000,8 @@ checksum = "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10"
 
 [[package]]
 name = "dojo-lang"
-version = "1.2.1"
-source = "git+https://github.com/remybar/dojo?rev=ba0f06333fc5cd4cb48c812573e99445944adac6#ba0f06333fc5cd4cb48c812573e99445944adac6"
+version = "1.2.2"
+source = "git+https://github.com/remybar/dojo?rev=7026e34e52e815d61a998f44dd6a3098ca56b6ef#7026e34e52e815d61a998f44dd6a3098ca56b6ef"
 dependencies = [
  "anyhow",
  "cairo-lang-defs",
@@ -2022,8 +2022,8 @@ dependencies = [
 
 [[package]]
 name = "dojo-types"
-version = "1.2.1"
-source = "git+https://github.com/remybar/dojo?rev=ba0f06333fc5cd4cb48c812573e99445944adac6#ba0f06333fc5cd4cb48c812573e99445944adac6"
+version = "1.2.2"
+source = "git+https://github.com/remybar/dojo?rev=7026e34e52e815d61a998f44dd6a3098ca56b6ef#7026e34e52e815d61a998f44dd6a3098ca56b6ef"
 dependencies = [
  "anyhow",
  "cainome",
