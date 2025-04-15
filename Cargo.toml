@@ -40,27 +40,27 @@ assert_fs = "1"
 async-trait = "0.1"
 axum = { version = "0.6", features = ["http2"] }
 bincode = "2.0.0-rc.3"
-cairo-lang-compiler = "2.10.1"
-cairo-lang-defs = "2.10.1"
-cairo-lang-diagnostics = "2.10.1"
-cairo-lang-doc = "2.10.1"
-cairo-lang-executable = "2.10.1"
-cairo-lang-filesystem = "2.10.1"
-cairo-lang-formatter = "2.10.1"
-cairo-lang-lowering = "2.10.1"
-cairo-lang-parser = "2.10.1"
-cairo-lang-runner = "2.10.1"
-cairo-lang-semantic = "2.10.1"
-cairo-lang-sierra = "2.10.1"
-cairo-lang-sierra-generator = "2.10.1"
-cairo-lang-sierra-to-casm = "2.10.1"
-cairo-lang-starknet = "2.10.1"
-cairo-lang-starknet-classes = "2.10.1"
-cairo-lang-syntax = "2.10.1"
-cairo-lang-test-plugin = "2.10.1"
-cairo-lang-test-runner = "2.10.1"
-cairo-lang-utils = { version = "2.10.1", features = ["env_logger"] }
-cairo-language-server = "2.10.0"
+cairo-lang-compiler = "=2.10.1"
+cairo-lang-defs = "=2.10.1"
+cairo-lang-diagnostics = "=2.10.1"
+cairo-lang-doc = "=2.10.1"
+cairo-lang-executable = "=2.10.1"
+cairo-lang-filesystem = "=2.10.1"
+cairo-lang-formatter = "=2.10.1"
+cairo-lang-lowering = "=2.10.1"
+cairo-lang-parser = "=2.10.1"
+cairo-lang-runner = "=2.10.1"
+cairo-lang-semantic = "=2.10.1"
+cairo-lang-sierra = "=2.10.1"
+cairo-lang-sierra-generator = "=2.10.1"
+cairo-lang-sierra-to-casm = "=2.10.1"
+cairo-lang-starknet = "=2.10.1"
+cairo-lang-starknet-classes = "=2.10.1"
+cairo-lang-syntax = "=2.10.1"
+cairo-lang-test-plugin = "=2.10.1"
+cairo-lang-test-runner = "=2.10.1"
+cairo-lang-utils = { version = "=2.10.1", features = ["env_logger"] }
+cairo-language-server = "=2.10.0"
 cairo-lint-core = { git = "https://github.com/software-mansion/cairo-lint", rev = "56f5b29431470b55eb4b0697423517b9365fce34" }
 cairo-vm = "1.0.1"
 camino = { version = "1", features = ["serde1"] }
@@ -147,7 +147,7 @@ zip = { version = "0.6", default-features = false, features = ["deflate"] }
 zstd = "0.13"
 
 [profile.release]
-lto = true
+#lto = true
 
 [profile.ci]
 inherits = "test"
