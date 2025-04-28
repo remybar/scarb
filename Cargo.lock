@@ -2271,8 +2271,8 @@ checksum = "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10"
 
 [[package]]
 name = "dojo-lang"
-version = "1.4.1"
-source = "git+https://github.com/dojoengine/dojo?rev=ee5cbda7fedf69a372559d158b9c4d8aa892d7b9#ee5cbda7fedf69a372559d158b9c4d8aa892d7b9"
+version = "1.5.0-alpha.2"
+source = "git+https://github.com/dojoengine/dojo?rev=6aa31a3d3f74da1a504068a80fab3d00da46a76d#6aa31a3d3f74da1a504068a80fab3d00da46a76d"
 dependencies = [
  "anyhow",
  "cairo-lang-defs",
@@ -2284,6 +2284,7 @@ dependencies = [
  "cairo-lang-utils",
  "dojo-types",
  "itertools 0.12.1",
+ "regex",
  "serde",
  "smol_str",
  "starknet 0.12.0",
@@ -2293,8 +2294,8 @@ dependencies = [
 
 [[package]]
 name = "dojo-types"
-version = "1.4.1"
-source = "git+https://github.com/dojoengine/dojo?rev=ee5cbda7fedf69a372559d158b9c4d8aa892d7b9#ee5cbda7fedf69a372559d158b9c4d8aa892d7b9"
+version = "1.5.0-alpha.2"
+source = "git+https://github.com/dojoengine/dojo?rev=6aa31a3d3f74da1a504068a80fab3d00da46a76d#6aa31a3d3f74da1a504068a80fab3d00da46a76d"
 dependencies = [
  "anyhow",
  "cainome",
